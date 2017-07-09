@@ -420,7 +420,7 @@ class Region {
  *   ]
  * });
  */
-export default class RegionsPlugin {
+class RegionsPlugin {
     /**
      * Regions plugin definition factory
      *
@@ -600,3 +600,5 @@ export default class RegionsPlugin {
         this.fireEvent('disable-drag-selection');
     }
 }
+
+export { RegionsPlugin as default, Region };
